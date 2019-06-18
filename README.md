@@ -14,29 +14,27 @@ Movies Info is a python program that uses OMDb API to get the movie information.
 
 ### Instructions To Run The Program
 
-```
-   1) Clone the repository
+1.  Clone the repository
 
-	     git clone https://github.com/mohsinzaheer25/moviesinfo.git
+    `git clone https://github.com/mohsinzaheer25/moviesinfo.git`
 
-   2) Update the token obtain from OMDb in your email inside env_file.
+2.  Update the token obtain from OMDb in your email inside env_file.
 
-   3) Build the docker images
+3.  Build the docker images
 
-          docker build -t moviesinfo .
+        `docker build -t moviesinfo .`
 
-      **Note:** Make sure you are inside the folder where Dockerfile is.
+    **Note:** Make sure you are inside the folder where Dockerfile is.
 
-   4) Run the docker container
+4.  Run the docker container
 
-          docker run -itd --env-file=./env_file --name moviesinfo moviesinfo:latest
+        `docker run -itd --env-file=./env_file --name moviesinfo moviesinfo:latest`
 
-   5) Search the movie title to get the information of it
+5.  Search the movie title to get the information of it
 
-          docker exec -it ca505539875 /app/moviesinfo.py transformer
+         `docker exec -it ca505539875 /app/moviesinfo.py transformer`
 
-     ** Note:** Replace container id (e.g. ca505539875) with your container id from step 4
-```
+    **Note:** Replace container id (e.g. ca505539875) with your container id from step 4
 
 ### Expect Output
 
