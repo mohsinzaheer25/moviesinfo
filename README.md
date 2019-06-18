@@ -25,7 +25,7 @@ Movies Info is a python program that uses OMDb API to get the movie information.
 
           docker build -t moviesinfo .
 
-      ****Note:** Make sure you are inside the folder where Dockerfile is.
+      **Note:** Make sure you are inside the folder where Dockerfile is.
 
    4) Run the docker container
 
@@ -35,7 +35,7 @@ Movies Info is a python program that uses OMDb API to get the movie information.
 
           docker exec -it ca505539875 /app/moviesinfo.py transformer
 
-     **** Note:** Replace container id (e.g. ca505539875) with your container id from step 4
+     ** Note:** Replace container id (e.g. ca505539875) with your container id from step 4
 ```
 
 ### Expect Output
